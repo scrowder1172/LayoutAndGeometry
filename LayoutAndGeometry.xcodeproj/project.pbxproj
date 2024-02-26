@@ -13,6 +13,7 @@
 		52BCF0B12B892702006A59DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BCF0B02B892702006A59DD /* Preview Assets.xcassets */; };
 		52BCF0C72B8951B7006A59DD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BCF0C62B8951B7006A59DD /* Launch Screen.storyboard */; };
 		52F3C3B12B8CF8A2006C3C99 /* AlignmentGuideExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3C3B02B8CF8A2006C3C99 /* AlignmentGuideExampleView.swift */; };
+		52F3C3B32B8D1264006C3C99 /* CustomAlignmentGuideExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3C3B22B8D1264006C3C99 /* CustomAlignmentGuideExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		52BCF0B02B892702006A59DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52BCF0C62B8951B7006A59DD /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		52F3C3B02B8CF8A2006C3C99 /* AlignmentGuideExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuideExampleView.swift; sourceTree = "<group>"; };
+		52F3C3B22B8D1264006C3C99 /* CustomAlignmentGuideExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignmentGuideExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				52F3C3B02B8CF8A2006C3C99 /* AlignmentGuideExampleView.swift */,
+				52F3C3B22B8D1264006C3C99 /* CustomAlignmentGuideExample.swift */,
 			);
 			path = "Tutorial Files";
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F3C3B32B8D1264006C3C99 /* CustomAlignmentGuideExample.swift in Sources */,
 				52BCF0AC2B892701006A59DD /* ContentView.swift in Sources */,
 				52F3C3B12B8CF8A2006C3C99 /* AlignmentGuideExampleView.swift in Sources */,
 				52BCF0AA2B892701006A59DD /* LayoutAndGeometryApp.swift in Sources */,
