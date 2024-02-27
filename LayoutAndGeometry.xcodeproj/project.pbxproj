@@ -16,6 +16,7 @@
 		52F3C3B32B8D1264006C3C99 /* CustomAlignmentGuideExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3C3B22B8D1264006C3C99 /* CustomAlignmentGuideExample.swift */; };
 		52F3C3B52B8D2C1C006C3C99 /* AbsolutePositioningExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3C3B42B8D2C1C006C3C99 /* AbsolutePositioningExample.swift */; };
 		52F3C3B72B8D356C006C3C99 /* GeometryReaderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3C3B62B8D356C006C3C99 /* GeometryReaderExample.swift */; };
+		52F3C3B92B8D4279006C3C99 /* GeometryReaderFramesAndCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3C3B82B8D4279006C3C99 /* GeometryReaderFramesAndCoordinates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		52F3C3B22B8D1264006C3C99 /* CustomAlignmentGuideExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignmentGuideExample.swift; sourceTree = "<group>"; };
 		52F3C3B42B8D2C1C006C3C99 /* AbsolutePositioningExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutePositioningExample.swift; sourceTree = "<group>"; };
 		52F3C3B62B8D356C006C3C99 /* GeometryReaderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderExample.swift; sourceTree = "<group>"; };
+		52F3C3B82B8D4279006C3C99 /* GeometryReaderFramesAndCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderFramesAndCoordinates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				52F3C3B22B8D1264006C3C99 /* CustomAlignmentGuideExample.swift */,
 				52F3C3B42B8D2C1C006C3C99 /* AbsolutePositioningExample.swift */,
 				52F3C3B62B8D356C006C3C99 /* GeometryReaderExample.swift */,
+				52F3C3B82B8D4279006C3C99 /* GeometryReaderFramesAndCoordinates.swift */,
 			);
 			path = "Tutorial Files";
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F3C3B92B8D4279006C3C99 /* GeometryReaderFramesAndCoordinates.swift in Sources */,
 				52F3C3B32B8D1264006C3C99 /* CustomAlignmentGuideExample.swift in Sources */,
 				52BCF0AC2B892701006A59DD /* ContentView.swift in Sources */,
 				52F3C3B52B8D2C1C006C3C99 /* AbsolutePositioningExample.swift in Sources */,
