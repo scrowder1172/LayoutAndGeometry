@@ -21,16 +21,20 @@ struct GeometryReaderAndScrollView: View {
                         let degrees: Angle = Angle.degrees(minY - fullView.size.height / 2) / 5
                         let opacity = 1 - abs(minY - UIScreen.main.bounds.height / 2) / (UIScreen.main.bounds.height / 2)
                         let scaleEffect = 1 + minY / 500
+                        let opacityChallenge = minY / 200
+                        let scaleChallenge = max(0.5, minY / 400)
+                        let hueChallenge = min(1.0, minY / fullView.size.height)
                         
                         Text("Row #\(index)")
-                            .font(.title)
+//                            .font(.title)
                             .frame(maxWidth: .infinity)
-                            .background(colors[index % 7])
+//                            .background(colors[index % 7])
+                            .background(Color(hue: hueChallenge, saturation: 1, brightness: 1))
                             .rotation3DEffect(
                                 degrees, axis: (x: 0, y: 1, z: 0)
                             )
-                            .scaleEffect(scaleEffect)
-                            .opacity(opacity)
+                            .scaleEffect(scaleChallenge)
+                            .opacity(opacityChallenge)
                     }
                     .frame(height: 40)
                 }
