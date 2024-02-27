@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		528D1A6D2B8E430500CD299C /* GeometryReaderAndScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D1A6C2B8E430500CD299C /* GeometryReaderAndScrollView.swift */; };
 		528D1A6F2B8E5D3600CD299C /* CoverFlowExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D1A6E2B8E5D3600CD299C /* CoverFlowExampleView.swift */; };
+		528D1A712B8E645A00CD299C /* VisualEffectModifierExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D1A702B8E645A00CD299C /* VisualEffectModifierExample.swift */; };
+		528D1A732B8E64DA00CD299C /* ScrollTargetExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D1A722B8E64DA00CD299C /* ScrollTargetExample.swift */; };
 		52BCF0AA2B892701006A59DD /* LayoutAndGeometryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCF0A92B892701006A59DD /* LayoutAndGeometryApp.swift */; };
 		52BCF0AC2B892701006A59DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCF0AB2B892701006A59DD /* ContentView.swift */; };
 		52BCF0AE2B892702006A59DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BCF0AD2B892702006A59DD /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 /* Begin PBXFileReference section */
 		528D1A6C2B8E430500CD299C /* GeometryReaderAndScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderAndScrollView.swift; sourceTree = "<group>"; };
 		528D1A6E2B8E5D3600CD299C /* CoverFlowExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowExampleView.swift; sourceTree = "<group>"; };
+		528D1A702B8E645A00CD299C /* VisualEffectModifierExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectModifierExample.swift; sourceTree = "<group>"; };
+		528D1A722B8E64DA00CD299C /* ScrollTargetExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTargetExample.swift; sourceTree = "<group>"; };
 		52BCF0A62B892701006A59DD /* LayoutAndGeometry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayoutAndGeometry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BCF0A92B892701006A59DD /* LayoutAndGeometryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutAndGeometryApp.swift; sourceTree = "<group>"; };
 		52BCF0AB2B892701006A59DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +99,8 @@
 				52F3C3B82B8D4279006C3C99 /* GeometryReaderFramesAndCoordinates.swift */,
 				528D1A6C2B8E430500CD299C /* GeometryReaderAndScrollView.swift */,
 				528D1A6E2B8E5D3600CD299C /* CoverFlowExampleView.swift */,
+				528D1A702B8E645A00CD299C /* VisualEffectModifierExample.swift */,
+				528D1A722B8E64DA00CD299C /* ScrollTargetExample.swift */,
 			);
 			path = "Tutorial Files";
 			sourceTree = "<group>";
@@ -170,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				528D1A732B8E64DA00CD299C /* ScrollTargetExample.swift in Sources */,
 				528D1A6D2B8E430500CD299C /* GeometryReaderAndScrollView.swift in Sources */,
 				52F3C3B92B8D4279006C3C99 /* GeometryReaderFramesAndCoordinates.swift in Sources */,
 				52F3C3B32B8D1264006C3C99 /* CustomAlignmentGuideExample.swift in Sources */,
@@ -178,6 +185,7 @@
 				528D1A6F2B8E5D3600CD299C /* CoverFlowExampleView.swift in Sources */,
 				52F3C3B12B8CF8A2006C3C99 /* AlignmentGuideExampleView.swift in Sources */,
 				52BCF0AA2B892701006A59DD /* LayoutAndGeometryApp.swift in Sources */,
+				528D1A712B8E645A00CD299C /* VisualEffectModifierExample.swift in Sources */,
 				52F3C3B72B8D356C006C3C99 /* GeometryReaderExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
