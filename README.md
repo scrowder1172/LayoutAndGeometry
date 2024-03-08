@@ -17,7 +17,7 @@ Check out Paul's course for more on SwiftUI: https://www.hackingwithswift.com/10
 ## Find a bug?
 
 While this code is based on Paul's lecture, there's always the possibily that I've fat fingered something 😬
-If you find a bug or would like to submit an improvement to this project, please submit an issue using the issues tab above. If you would like to submit a PR with a fix, reference the issue you created.
+<br>If you find a bug or would like to submit an improvement to this project, please submit an issue using the issues tab above. If you would like to submit a PR with a fix, reference the issue you created.
 
 ## Known Issues (work in progress)
 
